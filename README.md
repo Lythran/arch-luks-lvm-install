@@ -165,7 +165,7 @@ vim /etc/mkinitcpio.conf
 ```
 Add ```keyboard```, ```sd-encrypt```, ```lvm2``` to the ```HOOKS``` line. It should look something similar to this
 ```
-HOOKS=(base systemd autodetect microcode modconf kms keyboard keymap sd-vconsole block plymouth sd-encrypt lmv2 filesystems fsck)
+HOOKS=(base systemd autodetect microcode modconf kms keyboard keymap sd-vconsole block plymouth sd-encrypt lvm2 filesystems fsck)
 ```
 And yes, the order matters...
 
