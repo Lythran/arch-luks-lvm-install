@@ -69,7 +69,7 @@ mkfs.fat -F 32 /dev/sda1
 
 Now we encrypt! Make sure that you have a strong password for this.
 ```
-cryptsetup luksFormat /dev/sda1
+cryptsetup luksFormat /dev/sda2
 ```
 
 Now we open it and give it a name, for this, let's call it root to keep it simple. You can name it anything you want.
