@@ -1,4 +1,4 @@
-# Installing Arch Linux with LVM on LUKS
+# Installing Arch Linux with LUKS encryption
 This guide only works on x86_64 bit computers that have UEFI/EFI enabled. This follows the arch wiki [installation guide](https://wiki.archlinux.org/title/Installation_guide#Installation) and the [LVM on LUKS guide](https://wiki.archlinux.org/title/Dm-crypt/Encrypting_an_entire_system#LVM_on_LUKS). This also uses [Plymouth](https://wiki.archlinux.org/title/Plymouth) and the ```bgrt``` theme using the ```rhgb``` (Red Hat Graphical Boot) to look fancy.There is no swap partition because I am too lazy to encrypt and decrypt it (for now), but you can take a look at it [here](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption).
 
 **THIS IS A BASE INSTALLATION, YOU CAN INSTALL MORE THINGS LATER!**
