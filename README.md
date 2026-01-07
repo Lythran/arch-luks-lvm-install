@@ -74,7 +74,7 @@ cryptsetup luksFormat /dev/sda2
 
 Now we open it and give it a name, for this, let's call it root to keep it simple. You can name it anything you want.
 ```
-cryptsetup open /dev/sda1 root
+cryptsetup open /dev/sda2 root
 ```
 
 Now lets format it to ext4. You can use any file system as long as you follow the arch wiki when it comes to disk encryption with LVM on LUKS.
